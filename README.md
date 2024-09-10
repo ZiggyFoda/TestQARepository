@@ -7,7 +7,7 @@ Prueba de Login End-to-End (Cypress):
 
 Fue creada una prueba en Cypress para asegurar de que cuando un usuario no autenticado intenta acceder al panel de usuario, es redirigido a la página de login.
 La prueba verifica la interacción con el formulario, rellenando los campos de correo electrónico y contraseña, haciendo clic en el botón de login, y comprobando la navegación exitosa al panel de usuario.
-
+npx cypress run
 
 #Playwright
 
@@ -17,3 +17,4 @@ Prueba de Persistencia de Sesión (Playwright):
 
 Fue Desarrollada una prueba en Playwright para verificar que la sesión del usuario persiste después de recargar la página.
 La prueba simula el inicio de sesión, la navegación al panel de usuario, recarga la página y confirma que el usuario sigue en el panel de usuario sin ser redirigido a la página de login.
+npx playwright test
