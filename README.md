@@ -6,7 +6,7 @@
 Prueba de Login End-to-End (Cypress):
 
 Fue creada una prueba en Cypress para asegurar de que cuando un usuario no autenticado intenta acceder al panel de usuario, es redirigido a la página de login.
-La prueba verifica la interacción con el formulario, rellenando los campos de correo electrónico y contraseña, haciendo clic en el botón de login, y comprobando la navegación exitosa al panel de usuario.
+La prueba verifica la interacción con el formulario.
 npx cypress run
 
 #Playwright
